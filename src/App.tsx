@@ -13,7 +13,7 @@ function App() {
     console.log("result = ", result);
     const invoiceId = result.data.invoiceId;
 
-    const baseUrl = "https://dtcminiapp.web.app/invoice";
+    const baseUrl = "http://95.216.249.159:5174/";
     const url = new URL(baseUrl);
     url.searchParams.append("invoiceId", invoiceId);
 
